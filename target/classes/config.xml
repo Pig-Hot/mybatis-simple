@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <environment>
+        <datasource>
+            <driver value="com.mysql.jdbc.Driver"/>
+            <url value="jdbc:mysql://localhost:3306/lfBase?useUnicode=true"/>
+            <username value="root"/>
+            <password value="root"/>
+        </datasource>
+    </environment>
+    <cache value="true"/>
+    <package value="test.dao"/>
+    <executor value="Simple"/>
+    <plugins>
+        <plugin value="test.intercepts.TestInter"/>
+    </plugins>
+</configuration>
